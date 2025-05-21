@@ -2,6 +2,7 @@
  function Header () {
     return (
         <header >
+   
         <img src="src/assets/logo img.jpg"  style={{borderRadius:"10px"}} width={"90px"} alt="logo" />
         <nav>
           <ul>
@@ -11,7 +12,7 @@
             <li>Blog</li>
           </ul>
         </nav>
-                  <button type="submit" >Search</button>
+          <button type="submit" >Search</button>
 
           </header>
     )

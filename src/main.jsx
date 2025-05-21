@@ -1,9 +1,10 @@
 import { createRoot } from "react-dom/client";
-import Header from "./Components/Header";
-import Form from "./Components/Form";
-import Table from "./Components/Table";
-import Content from "./Components/Content";
-import Footer from "./Components/Footer";
+import App from "./App";
+import Navbar from "./Components/Navbar";
+import Main from "./Components/main";
+
+
+
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Layout from "./Pages/Layout";
 // import Home from "./Pages/Home";
@@ -29,14 +30,12 @@ import Footer from "./Components/Footer";
 function Challenge() {
   return (
     <>
-      <Header />
-      <Content />
-      <Form />
-      <Table />
-      <Footer />
+     <Navbar />
+     <Main />
+      
     </>
   );
 }
 
 const root = createRoot(document.getElementById("root"));
-root.render(<Challenge />);
+root.render(<App />);

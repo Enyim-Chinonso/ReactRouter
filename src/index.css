@@ -1,37 +1,48 @@
- header {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    margin-right: 40px;
-    margin-left: 20px;
-    margin-bottom: 40px;
- }
- button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-    width: 70px;
- }
-
-nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    gap: 20px;
-    font-size: 20px;
-
-}
-
-main, form, table, footer, h1, img{
-    margin-left: 30px;
-}
-
-h1 {
-    color: red;
-}
-
-footer {
+body {
+    background-color: aqua;
+    margin-left:  40px;
     margin-top: 30px;
 }
+
+/* Navbar styling */
+header nav {
+   display: flex;
+   gap: 40px;
+}
+
+header nav span {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    color: red;
+    font-weight: 900;
+}
+
+header nav img {
+    border-radius: 7px;
+}
+/* End of Navbar styling */
+
+
+
+/* Start of Main styling */
+
+   h1 {
+    color: red;
+   }
+
+   .container {
+    padding-top: 70px;
+   }
+
+   .container ul {
+    font-size: larger;
+    line-height: 40px;
+   }
+
+   li::marker {
+    font-size: 1.5rem;
+    color: red;
+   }
+
+/* End of Main styling */
